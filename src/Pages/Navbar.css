@@ -1,0 +1,49 @@
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.mainIcon img{
+    height:50px ;
+}
+
+.Navbar :nth-of-type(2){
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.searchBox{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.Navbar input[type=text] {
+    float: right;
+    padding: 10px;
+    padding-left: 35px;
+    border: none;
+    background-color: #F6F7F9;
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+.Navbar input[type = text]:focus{
+    outline : none
+}
+
+.searchIcon{
+    position: absolute;
+    left: 5px;
+    font-size:1.5rem;
+    opacity: 0.5;
+}
+
+.notificationBell{
+    font-size: 1.4rem;
+}
+
+.profilePic img{
+    width: 35px;
+}
